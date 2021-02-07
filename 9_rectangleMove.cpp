@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<graphics.h>
 #include<string.h>
 int main()
@@ -8,16 +7,12 @@ int main()
 	//THis code author is  from Biplob 154037
   //THis code author is  from Biplob 154037
   //THis code author is  from Biplob 154037, I am just collect It
-	initwindow(500,500);
 	int s,x1,y1,x2,y2,xmax,xmin,ymax,ymin,i;
-	settextstyle(SOLID_FILL,HORIZ_DIR,1);
-    outtextxy(220,10,"MD.BILOB ISLAM");
-    outtextxy(220,35,"Student ID: 154037");
-    outtextxy(220,60,"Rotate Rectangle\n");
-    outtextxy(220,90,"Bottom Rotate=2\n");
-    outtextxy(220,120,"Left Rotate=4\n");
-    outtextxy(220,150,"Right Rotate=6\n");
-    outtextxy(220,180,"Top Rotate=8\n");
+	//settextstyle(SOLID_FILL,HORIZ_DIR,1);
+
+  int gd=DETECT,gm;
+  initgraph(&gd,&gm,NULL);
+
 	int ty1=20;
 	xmin=200;ymin=200;
 	xmax=300;ymax=300;
